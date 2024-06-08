@@ -20,6 +20,16 @@
                     </div>
                     <!--end::Search-->
                 </div>
+                <div class="card-toolbar flex-row-fluid justify-content-end gap-5">
+                    <!--begin::Add product-->
+                    <a  href="#" 
+                        class="btn btn-primary d-flex justify-content-between align-items-center gap-5"
+                        data-bs-toggle="modal"
+                        data-bs-target="#kt_modal_nuevo_asegurado">
+                        Nuevo asegurado
+                    </a>
+                    <!--end::Add product-->
+                </div>
                 <!--end::Card title-->
             </div>
             <!--end::Card header-->

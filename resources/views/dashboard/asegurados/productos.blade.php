@@ -51,7 +51,7 @@
                             <!--end::User-->
                             <!--begin::Actions-->
                             <div class="d-flex my-4">
-                                <a href="#" class="btn btn-sm btn-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_offer_a_deal">Nuevo producto</a>
+                                <a href="#" class="btn btn-sm btn-primary me-3" data-bs-toggle="modal" data-bs-target="#kt_modal_nuevo_producto">Nuevo producto</a>
                             </div>
                             <!--end::Actions-->
                         </div>
@@ -474,6 +474,7 @@
 <!--end::Content-->
 
 @include('dashboard/asegurados/producto-informacion')
+@include('dashboard/asegurados/producto-nuevo')
 
 @endsection
 

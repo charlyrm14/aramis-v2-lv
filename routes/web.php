@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('dashboard/home/index');
 })->name('home');
 
+Route::get('/login', function () {
+    return view('login/index');
+})->name('login');
+
 Route::prefix('asegurados')->controller(AseguradoController::class)->group(function() {
     Route::get('/busqueda', 'busqueda')->name('asegurados.busqueda');
     Route::get('/{asegurado_id}/productos', 'productosPorAsegurado')->name('asegurados.productos');
