@@ -1,21 +1,35 @@
-<div class="footer py-4 d-flex flex-lg-column" id="kt_footer">
+<div class="footer py-4 d-flex flex-lg-column fixed-bottom bg-primary" id="kt_footer">
     <!--begin::Container-->
-    <div class="container-xxl d-flex flex-column flex-md-row flex-stack">
+    <div class="container-xxl d-flex flex-column flex-md-row flex-stack gap-3 text-white">
         <!--begin::Copyright-->
-        <div class="text-gray-900 order-2 order-md-1">
-            <span class="text-gray-500 fw-semibold me-1">ARAMIS</span>
-            <a href="{{ route('home') }}" target="_blank" class="text-muted text-hover-primary fw-semibold me-2 fs-6">{{ now()->year }}</a>
+        <div class="order-2 order-md-1">
+            <span class="fs-3 me-1 d-flex align-items-center gap-3">
+            <i class="ki-duotone ki-tablet-text-down fs-2x text-white">
+                <span class="path1"></span>
+                <span class="path2"></span>
+                <span class="path3"></span>
+                <span class="path4"></span>
+            </i> <strong> testing_dev_24052024  </strong>
+            </span>
         </div>
         <!--end::Copyright-->
         <!--begin::Menu-->
-        <ul class="menu menu-gray-600 menu-hover-primary fw-semibold order-1">
-            <li class="menu-item">
-                <a href="#" target="_blank" class="menu-link px-2">Acerca de</a>
-            </li>
-            <li class="menu-item">
-                <a href="#" target="_blank" class="menu-link px-2">Soporte</a>
-            </li>
-        </ul>
+        <div class="order-2 order-md-2">
+            <span class="fs-3 me-1 d-flex align-items-center gap-3">
+                 <i class="ki-duotone ki-user-square fs-2x text-white">
+                    <span class="path1"></span>
+                    <span class="path2"></span>
+                    <span class="path3"></span>
+                </i> <strong> (+52) 55-0011-2233 </strong>
+            </span>
+        </div>
+        <!--end::Menu-->
+        <!--begin::Menu-->
+        <div class="order-2 order-md-3">
+            <button class="btn btn-danger btn-sm fs-4 rounded-pill">
+                <i class="bi bi-telephone-minus"></i> Finalizar llamada
+            </button>
+        </div>
         <!--end::Menu-->
     </div>
     <!--end::Container-->
