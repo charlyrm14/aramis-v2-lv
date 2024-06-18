@@ -300,6 +300,19 @@
                                                                     <!--end::Menu item-->
                                                                     <!--begin::Menu item-->
                                                                     <div class="menu-item px-3">
+                                                                        <a  href="#" 
+                                                                            class="menu-link flex-stack px-3"
+                                                                            download="#"> 
+                                                                            <i class="ki-duotone ki-cloud-download">
+                                                                                <span class="path1"></span>
+                                                                                <span class="path2"></span>
+                                                                            </i>
+                                                                            Descargar PDF
+                                                                        </a>
+                                                                    </div>
+                                                                    <!--end::Menu item-->
+                                                                    <!--begin::Menu item-->
+                                                                    <div class="menu-item px-3">
                                                                         <a  href="{{ route('asegurados.retencion', [
                                                                             $producto->fi_numero_cliente,
                                                                             $producto->fi_numero_producto,
@@ -311,6 +324,38 @@
                                                                                 <span class="path2"></span>
                                                                             </i>
                                                                             Cambio plan / RXA
+                                                                        </a>
+                                                                    </div>
+                                                                    <!--end::Menu item-->
+                                                                    <!--begin::Menu item-->
+                                                                    <div class="menu-item px-3">
+                                                                        <a  href="{{ route('asegurados.endoso', [
+                                                                                $producto->fi_numero_cliente,
+                                                                                $producto->fi_numero_producto,
+                                                                                $producto->fc_numero_poliza
+                                                                            ]) }}"
+                                                                            class="menu-link flex-stack px-3"> 
+                                                                            <i class="ki-duotone ki-setting-2">
+                                                                                <span class="path1"></span>
+                                                                                <span class="path2"></span>
+                                                                            </i>
+                                                                            Endosos
+                                                                        </a>
+                                                                    </div>
+                                                                    <!--end::Menu item-->
+                                                                    <!--begin::Menu item-->
+                                                                    <div class="menu-item px-3">
+                                                                        <a  href="{{ route('asegurados.cancelacion', [
+                                                                                $producto->fi_numero_cliente,
+                                                                                $producto->fi_numero_producto,
+                                                                                $producto->fc_numero_poliza
+                                                                            ]) }}"
+                                                                            class="menu-link flex-stack px-3"> 
+                                                                            <i class="ki-duotone ki-file-deleted">
+                                                                                <span class="path1"></span>
+                                                                                <span class="path2"></span>
+                                                                            </i>
+                                                                            Cancelar póliza
                                                                         </a>
                                                                     </div>
                                                                     <!--end::Menu item-->

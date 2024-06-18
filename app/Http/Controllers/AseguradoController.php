@@ -117,4 +117,60 @@ class AseguradoController extends Controller
             'asegurados' => $asegurados
         ]);
     }
+
+    /**
+     * The function `endosoPoliza` retrieves information about insured persons for a given client,
+     * product, and policy number and then displays it in a view for retention purposes.
+     * 
+     * @param int fi_numero_cliente The parameter `fi_numero_cliente` appears to represent the client
+     * number in the function `endosoPoliza`. It is expected to be an integer type. This parameter
+     * likely identifies a specific client for whom information is being retrieved or processed within
+     * the function.
+     * @param int fi_numero_producto The parameter `fi_numero_producto` appears to represent the
+     * product number. It is likely used to identify a specific product within the system.
+     * @param string fc_numero_poliza The parameter `fc_numero_poliza` is a string type variable that
+     * represents the policy number associated with a specific insurance policy. It is used as a unique
+     * identifier for the policy within the system.
+     * 
+     * @return The function `endosoPoliza` is returning a view called
+     * 'dashboard/asegurados/endoso' with the data of the variable ``, which is obtained
+     * by calling the static method `obtieneInformacionAsegurados` of the class `AseguradoPoliza` with
+     * the parameters ``, ``, and `$
+     */
+    public function endosoPoliza(int $fi_numero_cliente, int $fi_numero_producto, string $fc_numero_poliza)
+    {
+        return view('dashboard/asegurados/endoso', [
+            'fi_numero_cliente' => $fi_numero_cliente,
+            'fi_numero_producto' => $fi_numero_producto,
+            'fc_numero_poliza' => $fc_numero_poliza
+        ]);
+    }
+
+    /**
+     * The function `cancelacionPoliza` retrieves information about insured persons for a given client,
+     * product, and policy number and then displays it in a view for retention purposes.
+     * 
+     * @param int fi_numero_cliente The parameter `fi_numero_cliente` appears to represent the client
+     * number in the function `cancelacionPoliza`. It is expected to be an integer type. This parameter
+     * likely identifies a specific client for whom information is being retrieved or processed within
+     * the function.
+     * @param int fi_numero_producto The parameter `fi_numero_producto` appears to represent the
+     * product number. It is likely used to identify a specific product within the system.
+     * @param string fc_numero_poliza The parameter `fc_numero_poliza` is a string type variable that
+     * represents the policy number associated with a specific insurance policy. It is used as a unique
+     * identifier for the policy within the system.
+     * 
+     * @return The function `cancelacionPoliza` is returning a view called
+     * 'dashboard/asegurados/endoso' with the data of the variable ``, which is obtained
+     * by calling the static method `obtieneInformacionAsegurados` of the class `AseguradoPoliza` with
+     * the parameters ``, ``, and `$
+     */
+    public function cancelacionPoliza(int $fi_numero_cliente, int $fi_numero_producto, string $fc_numero_poliza)
+    {
+        return view('dashboard/asegurados/cancelar-poliza', [
+            'fi_numero_cliente' => $fi_numero_cliente,
+            'fi_numero_producto' => $fi_numero_producto,
+            'fc_numero_poliza' => $fc_numero_poliza
+        ]);
+    }
 }

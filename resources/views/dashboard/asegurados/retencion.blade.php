@@ -7,6 +7,13 @@
 <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Container-->
     <div class="container-xxl" id="kt_content_container">
+        <ul class="breadcrumb fw-semibold fs-8 my-1">
+            <li class="breadcrumb-item text-muted">
+                <a href="index.html" class="text-muted text-hover-primary">Inicio</a>
+            </li>
+            <li class="breadcrumb-item text-muted">Asegurado</li>
+            <li class="breadcrumb-item text-muted">Retención</li>
+        </ul>
         <h2 class="fs-2x fw-bold my-5">Retención</h2>
         <!--begin::Form-->
         <form>

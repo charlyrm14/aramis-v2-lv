@@ -26,4 +26,6 @@ Route::prefix('asegurados')->controller(AseguradoController::class)->group(funct
     Route::get('/busqueda', 'busqueda')->name('asegurados.busqueda');
     Route::get('/{asegurado_id}/productos', 'productosPorAsegurado')->name('asegurados.productos');
     Route::get('/retencion/{fi_numero_cliente}/{fi_numero_producto}/{fc_numero_poliza}', 'retencionProducto')->name('asegurados.retencion');
+    Route::get('/endoso/{fi_numero_cliente}/{fi_numero_producto}/{fc_numero_poliza}', 'endosoPoliza')->name('asegurados.endoso');
+    Route::get('/cancelacion/{fi_numero_cliente}/{fi_numero_producto}/{fc_numero_poliza}', 'cancelacionPoliza')->name('asegurados.cancelacion');
 });
