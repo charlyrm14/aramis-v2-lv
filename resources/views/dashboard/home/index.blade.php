@@ -306,6 +306,43 @@
             </div>
         </div>
         <!--end::Row-->
+
+
+        <!--begin::Row Call-->
+        <div class="row gx-5 gx-xl-10 sticky-top fixed-bottom my-5">
+            <div class="col-md-12 my-2">
+                <div class="card shadow bg-secondary border border-1 border-success">
+                    <div class="card-body p-2">
+                        <div class="d-flex flex-stack py-4 px-3">
+                            <!--begin::Details-->
+                            <div class="d-flex align-items-center">
+                                <!--begin::Avatar-->
+                                <div class="symbol symbol-55px symbol-circle">
+                                    <img alt="Pic" src="{{ asset('assets/media/avatars/300-6.jpg') }}" class="img-thumbnail">
+                                </div>
+                                <!--end::Avatar-->
+                                <!--begin::Details-->
+                                <div class="ms-5">
+                                    <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">(+52) 55-0011-2233</a>
+                                    <div class="fw-semibold text-muted">ID: testing_dev_24052024</div>
+                                </div>
+                                <!--end::Details-->
+                            </div>
+                            <!--end::Details-->
+                            <!--begin::Access menu-->
+                            <div class="ms-2 w-100px">
+                                <button class="btn btn-danger btn-sm d-flex- justify-content-between gap-3 rounded-pill"> 
+                                    <i class="bi bi-telephone-x"></i>Finalizar 
+                                </button>
+                            </div>
+                            <!--end::Access menu-->
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end::Row Call-->
+
     </div>
     <!--end::Container-->
 </div>
