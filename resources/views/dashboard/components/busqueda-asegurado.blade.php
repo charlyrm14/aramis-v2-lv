@@ -2,11 +2,6 @@
 <div class="card rounded-0 border-0 bgi-no-repeat bgi-position-x-end bgi-size-cover" style="background-color: #FFFFFF; background-size: auto 100%; background-image: url(assets/media/misc/taieri.svg)">
     <!--begin::body-->
     <div class="card-body container-xxl pt-10 pb-8">
-        <!--begin::Title-->
-        <div class="d-flex justify-content-center align-items-center">
-            <h1 class="fw-semibold me-3">Buscar asegurado</h1>
-        </div>
-        <!--end::Title-->
         <!--begin::Wrapper-->
         <div class="d-flex flex-column">
             <!--begin::Block-->
@@ -38,6 +33,7 @@
                                     <option value="fc_nombre_asegurado" selected="selected">Nombre</option>
                                     <option value="fc_rfc">RFC</option>
                                     <option value="fc_valor_item">Póliza aseguradora</option>
+                                    <option value="llamada_id">Llamada</option>
                                 </select>
                                 <!--end::Select-->
                             </div>

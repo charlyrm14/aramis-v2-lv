@@ -307,7 +307,6 @@
         </div>
         <!--end::Row-->
 
-
         <!--begin::Row Call-->
         <div class="row gx-5 gx-xl-10 sticky-top fixed-bottom my-5">
             <div class="col-md-12 my-2">

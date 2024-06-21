@@ -313,6 +313,20 @@
                                                                     <!--end::Menu item-->
                                                                     <!--begin::Menu item-->
                                                                     <div class="menu-item px-3">
+                                                                        <a  href="#" 
+                                                                            data-bs-toggle="modal" 
+                                                                            data-bs-target="#kt_modal_enviar_por_correo"
+                                                                            class="menu-link flex-stack px-3"> 
+                                                                            <i class="ki-duotone ki-send">
+                                                                                <span class="path1"></span>
+                                                                                <span class="path2"></span>
+                                                                            </i>
+                                                                            Enviar por correo
+                                                                        </a>
+                                                                    </div>
+                                                                    <!--end::Menu item-->
+                                                                    <!--begin::Menu item-->
+                                                                    <div class="menu-item px-3">
                                                                         <a  href="{{ route('asegurados.retencion', [
                                                                             $producto->fi_numero_cliente,
                                                                             $producto->fi_numero_producto,
@@ -520,6 +534,7 @@
 
 @include('dashboard/asegurados/producto-informacion')
 @include('dashboard/asegurados/producto-nuevo')
+@include('dashboard/asegurados/enviar-poliza-correo')
 
 @endsection
 
