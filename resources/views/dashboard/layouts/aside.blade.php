@@ -121,6 +121,13 @@
             <!--end::Menu 2-->
         </div>
         <!--end::Menu-->
+
+        <div class="mb-7">
+            <span class="badge py-3 px-4 fs-7 badge-light-warning rounded-pill d-block">
+                WOOW
+            </span>
+        </div>
+
     </div>
     <!--end::Footer-->
 </div>
