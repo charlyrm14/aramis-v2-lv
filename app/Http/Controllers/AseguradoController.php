@@ -27,15 +27,26 @@ class AseguradoController extends Controller
     {
         if(is_null($request->get('query')) || is_null($request->get('tipo_busqueda'))) abort(404);
 
-        $asegurados = Asegurado::busquedaAsegurado($request->get('query'), $request->get('tipo_busqueda'));
-        
-        $asegurados->each(function($asegurado){
-            $asegurado->fi_fecha_nacimiento = GeneralService::formatoFecha($asegurado->fi_fecha_nacimiento);
-        });
+        if ($request->get('tipo_busqueda') != 'fc_llamada_id') {
 
-        return view('dashboard/asegurados/index', [
-            'asegurados' => $asegurados->unique('fc_rfc')
-        ]);
+            $asegurados = Asegurado::busquedaAsegurado($request->get('query'), $request->get('tipo_busqueda'));
+
+            if (!is_null($asegurados)) {
+
+                $asegurados->each(function($asegurado){
+                    $asegurado->fi_fecha_nacimiento = GeneralService::formatoFecha($asegurado->fi_fecha_nacimiento);
+                });
+
+                return view('dashboard/asegurados/index', [
+                    'asegurados' => $asegurados->unique('fc_rfc')
+                ]);
+
+            } else {
+                abort(404);
+            }
+        }
+
+        return view('dashboard/asegurados/tarjetas-llamada');
     }
 
     /**

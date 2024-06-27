@@ -33,7 +33,7 @@
                                     <option value="fc_nombre_asegurado" selected="selected">Nombre</option>
                                     <option value="fc_rfc">RFC</option>
                                     <option value="fc_valor_item">Póliza aseguradora</option>
-                                    <option value="llamada_id">Llamada</option>
+                                    <option value="fc_llamada_id">Llamada</option>
                                 </select>
                                 <!--end::Select-->
                             </div>

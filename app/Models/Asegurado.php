@@ -86,9 +86,13 @@ class Asegurado extends Model
             case 'fc_rfc':
                 return self::busquedaPorRfcAsegurado($query);
             break;
+
+            case 'fc_valor_item':
+                return NULL;
+            break;
             
             default:
-            # code...
+                return NULL;
             break;
         }
     }
