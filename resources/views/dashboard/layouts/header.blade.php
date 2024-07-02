@@ -187,8 +187,15 @@
                 <div class="d-flex align-items-center ms-1 ms-lg-3">
                     <!--begin::Menu wrapper-->
                     <div class="btn btn-icon btn-active-light-primary position-relative btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px" id="kt_drawer_chat_toggle">
-                        <i class="ki-outline ki-message-text-2 fs-1"></i>
-                        <span class="bullet bullet-dot bg-success h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink"></span>
+                        <i class="ki-duotone ki-finance-calculator fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                            <span class="path4"></span>
+                            <span class="path5"></span>
+                            <span class="path6"></span>
+                            <span class="path7"></span>
+                        </i>
                     </div>
                     <!--end::Menu wrapper-->
                 </div>

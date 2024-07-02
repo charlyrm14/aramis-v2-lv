@@ -67,7 +67,7 @@
                     @yield('content')
 
 					@include('dashboard/asegurados/asegurado-nuevo')
-					@include('dashboard/components/historial-llamadas')
+					@include('dashboard/components/calculadora-prima')
 
                     <!--begin::Footer-->
                     @include("dashboard/layouts/footer")
