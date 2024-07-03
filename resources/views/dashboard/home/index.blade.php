@@ -311,7 +311,7 @@
         <div class="row gx-5 gx-xl-10 sticky-top fixed-bottom my-5">
             <div class="col-md-12 my-2">
                 <div class="card shadow bg-secondary border border-1 border-success">
-                    <div class="card-body p-2">
+                    <div class="card-body p-0">
                         <div class="d-flex flex-stack py-4 px-3">
                             <!--begin::Details-->
                             <div class="d-flex align-items-center">
