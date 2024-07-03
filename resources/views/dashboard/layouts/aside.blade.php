@@ -85,9 +85,9 @@
     </div>
     <!--end::Nav-->
     <!--begin::Footer-->
-    <div class="aside-footer d-flex flex-column align-items-center flex-column-auto" id="kt_aside_footer" data-bs-toggle="tooltip" data-bs-original-title="Acciones rápidas">
+    <div class="aside-footer d-flex flex-column align-items-center flex-column-auto" id="kt_aside_footer">
         <!--begin::Menu-->
-        <div class="mb-7">
+        <div class="mb-7" data-bs-toggle="tooltip" data-bs-original-title="Acciones rápidas">
             <button type="button" class="btn btm-sm btn-custom btn-icon" data-kt-menu-trigger="click" data-kt-menu-overflow="true" data-kt-menu-placement="top-start" title="Quick actions">
                 <i class="ki-outline ki-notification-status fs-1"></i>
             </button>
@@ -122,13 +122,13 @@
         </div>
         <!--end::Menu-->
 
-        <div class="mb-7">
-            <span href="#" 
-                class="badge py-3 px-4 fs-7 badge-light-warning rounded-pill d-block" 
+        <div class="mb-7" data-bs-toggle="tooltip" data-bs-original-title="Necesitas ayuda?">
+            <div href="#" 
+                class="symbol symbol-40px symbol-circle"
                 data-bs-toggle="modal"
                 data-bs-target="#kt_modal_avatar_aramis">
-                WOOW
-            </span>
+                <img alt="Pic" src="https://www.anuarioseguros.lat/admin/storage/images/WOWlogo.jpg" class="img-thumbnail">
+            </div>
         </div>
 
     </div>
