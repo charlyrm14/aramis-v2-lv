@@ -310,9 +310,9 @@
         <!--begin::Row Call-->
         <div class="row gx-5 gx-xl-10 sticky-top fixed-bottom my-5">
             <div class="col-md-12 my-2">
-                <div class="card shadow bg-secondary border border-1 border-success">
+                <div class="card shadow bg-primary">
                     <div class="card-body p-0">
-                        <div class="d-flex flex-stack py-4 px-3">
+                        <div class="d-flex flex-stack py-1 px-3">
                             <!--begin::Details-->
                             <div class="d-flex align-items-center">
                                 <!--begin::Avatar-->
@@ -322,8 +322,8 @@
                                 <!--end::Avatar-->
                                 <!--begin::Details-->
                                 <div class="ms-5">
-                                    <a href="#" class="fs-5 fw-bold text-gray-900 text-hover-primary mb-2">(+52) 55-0011-2233</a>
-                                    <div class="fw-semibold text-muted">ID: testing_dev_24052024</div>
+                                    <a href="#" class="fs-5 fw-bold text-white text-hover-primary mb-2">(+52) 55-0011-2233</a>
+                                    <div class="fw-semibold text-white">ID: testing_dev_24052024</div>
                                 </div>
                                 <!--end::Details-->
                             </div>
