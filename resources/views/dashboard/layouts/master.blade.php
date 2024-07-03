@@ -112,6 +112,7 @@
 		<script src="{{ asset('assets/js/custom/utilities/modals/select-location.js') }}"></script>
 		<script src="{{ asset('assets/js/custom/utilities/modals/users-search.js') }}"></script>
 		<script src="{{ asset('assets/js/avatar-animated.js') }}"></script>
+		<script src="{{ asset('assets/js/calculadora-prima.js') }}"></script>
 		<script>
 			
 		</script>

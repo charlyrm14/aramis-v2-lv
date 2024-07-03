@@ -49,16 +49,13 @@
                         </select>
                     </div>
                     <!--end::Col-->
-                    <div class="row p-0 my-5">
+                    <div class="row p-0 my-5 container-asegurados-clc">
                         <!--begin::Col-->
                         <div class="col-md-6 fv-row fv-plugins-icon-container">
                             <!--begin::Label-->
                             <label class="fs-6 fw-semibold mb-2">Tipo asegurado</label>
                             <select class="form-select form-select-solid" data-control="select2" data-hide-search="true" data-placeholder="Selecciona" name="target_assign">
                                 <option value="1">Titular</option>
-                                <option value="9">Contratante</option>
-                                <option value="2">Conyuge</option>
-                                <option value="3">Hijo</option>
                             </select>
                         </div>
                         <!--end::Col-->
@@ -79,7 +76,7 @@
                     </div>
                     <!-- Begin::Boton Agregar -->
                     <div class="d-flex justify-content-end">
-                        <button class="btn btn-success btn-sm rounded-pill d-flex justify-contenter-between align-items-center gap-5"> 
+                        <button class="btn btn-success btn-sm rounded-pill d-flex justify-contenter-between align-items-center gap-5" id="btn-add-asegurado-clc"> 
                             Agregar
                             <i class="ki-duotone ki-plus-square fs-2">
                                 <span class="path1"></span>
