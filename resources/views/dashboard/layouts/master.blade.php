@@ -68,6 +68,7 @@
 
 					@include('dashboard/asegurados/asegurado-nuevo')
 					@include('dashboard/components/calculadora-prima')
+					@include('dashboard/components/avatar-aramis')
 
                     <!--begin::Footer-->
                     @include("dashboard/layouts/footer")
@@ -110,7 +111,7 @@
 		<script src="{{ asset('assets/js/custom/utilities/modals/upgrade-plan.js') }}"></script>
 		<script src="{{ asset('assets/js/custom/utilities/modals/select-location.js') }}"></script>
 		<script src="{{ asset('assets/js/custom/utilities/modals/users-search.js') }}"></script>
-
+		<script src="{{ asset('assets/js/avatar-animated.js') }}"></script>
 		<script>
 			
 		</script>

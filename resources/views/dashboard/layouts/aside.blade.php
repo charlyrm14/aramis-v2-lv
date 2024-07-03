@@ -123,7 +123,10 @@
         <!--end::Menu-->
 
         <div class="mb-7">
-            <span class="badge py-3 px-4 fs-7 badge-light-warning rounded-pill d-block">
+            <span href="#" 
+                class="badge py-3 px-4 fs-7 badge-light-warning rounded-pill d-block" 
+                data-bs-toggle="modal"
+                data-bs-target="#kt_modal_avatar_aramis">
                 WOOW
             </span>
         </div>

@@ -312,7 +312,7 @@
             <div class="col-md-12 my-2">
                 <div class="card shadow bg-primary">
                     <div class="card-body p-0">
-                        <div class="d-flex flex-stack py-1 px-3">
+                        <div class="d-flex flex-stack py-2 px-3">
                             <!--begin::Details-->
                             <div class="d-flex align-items-center">
                                 <!--begin::Avatar-->

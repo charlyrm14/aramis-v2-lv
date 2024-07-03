@@ -1,7 +1,7 @@
 <!--begin::Search form-->
 <div class="card rounded-0 border-0 bgi-no-repeat bgi-position-x-end bgi-size-cover" style="background-color: #FFFFFF; background-size: auto 100%; background-image: url(assets/media/misc/taieri.svg)">
     <!--begin::body-->
-    <div class="card-body container-xxl pt-10 pb-8">
+    <div class="card-body container-xxl pt-6 pb-6">
         <!--begin::Wrapper-->
         <div class="d-flex flex-column">
             <!--begin::Block-->
