@@ -78,6 +78,25 @@
                     </div>
                 </a>
                 <!--end:Menu item-->
+                <!--begin:Menu item-->
+                <a href="{{ route('usuarios.index') }}">
+                    <div data-kt-menu-placement="right-start" class="menu-item here show py-2" data-bs-toggle="tooltip" data-bs-original-title="Usuarios">
+                        <!--begin:Menu link-->
+                        <span class="menu-link menu-center">
+                            <span class="menu-icon me-0">
+                                <i class="ki-outline ki-people fs-2x">
+                                    <span class="path1"></span>
+                                    <span class="path2"></span>
+                                    <span class="path3"></span>
+                                    <span class="path4"></span>
+                                    <span class="path5"></span>
+                                </i>
+                            </span>
+                        </span>
+                        <!--end:Menu link-->
+                    </div>
+                </a>
+                <!--end:Menu item-->
             </div>
             <!--end::Menu-->
         </div>

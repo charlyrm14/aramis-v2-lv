@@ -255,7 +255,7 @@
                                                         </td>
                                                         <td class="text-end pe-0">
                                                             <div class="me-0">
-                                                                <button class="btn btn-sm btn-secondary rounded-pill border border-1 border-primary" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
+                                                                <button class="btn btn-sm btn-primary rounded-pill" data-kt-menu-trigger="click" data-kt-menu-placement="bottom-end">
                                                                     Acciones
                                                                 </button>
                                                                 <!--begin::Menu 3-->
