@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AseguradoController;
 use App\Http\Controllers\PermisoUsuarioController;
+use App\Http\Controllers\ReporteController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,4 +34,8 @@ Route::prefix('asegurados')->controller(AseguradoController::class)->group(funct
 Route::prefix('usuarios/')->controller(PermisoUsuarioController::class)->group(function() {
     Route::get('', 'index')->name('usuarios.index');
     Route::get('perfil/{usuario_id}', 'perfil')->name('usuarios.perfil');
+});
+
+Route::prefix('reportes/')->controller(ReporteController::class)->group(function() {
+    Route::get('', 'index')->name('reportes.index');
 });

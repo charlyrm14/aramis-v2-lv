@@ -66,7 +66,7 @@
                 </a>
                 <!--end:Menu item-->
                 <!--begin:Menu item-->
-                <a href="#">
+                <a href="{{ route('reportes.index') }}">
                     <div data-kt-menu-placement="right-start" class="menu-item here show py-2" data-bs-toggle="tooltip" data-bs-original-title="Reportes">
                         <!--begin:Menu link-->
                         <span class="menu-link menu-center">
