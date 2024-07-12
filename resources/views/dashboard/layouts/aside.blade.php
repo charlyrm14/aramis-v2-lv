@@ -53,7 +53,7 @@
                 </a>
                 <!--end:Menu item-->
                 <!--begin:Menu item-->
-                <a href="#">
+                <a href="{{ route('usuarios.mis.llamadas', 1) }}">
                     <div data-kt-menu-placement="right-start" class="menu-item here show py-2" data-bs-toggle="tooltip" data-bs-original-title="Mis llamadas">
                         <!--begin:Menu link-->
                         <span class="menu-link menu-center">

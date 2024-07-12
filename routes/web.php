@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AseguradoController;
-use App\Http\Controllers\PermisoUsuarioController;
+use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\ReporteController;
 /*
 |--------------------------------------------------------------------------
@@ -31,9 +31,10 @@ Route::prefix('asegurados')->controller(AseguradoController::class)->group(funct
     Route::get('/cancelacion/{fi_numero_cliente}/{fi_numero_producto}/{fc_numero_poliza}', 'cancelacionPoliza')->name('asegurados.cancelacion');
 });
 
-Route::prefix('usuarios/')->controller(PermisoUsuarioController::class)->group(function() {
+Route::prefix('usuarios/')->controller(UsuarioController::class)->group(function() {
     Route::get('', 'index')->name('usuarios.index');
     Route::get('perfil/{usuario_id}', 'perfil')->name('usuarios.perfil');
+    Route::get('mis-llamadas/{usuario_id}', 'misLlamadas')->name('usuarios.mis.llamadas');
 });
 
 Route::prefix('reportes/')->controller(ReporteController::class)->group(function() {
