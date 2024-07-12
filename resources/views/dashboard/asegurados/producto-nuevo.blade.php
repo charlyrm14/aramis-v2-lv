@@ -235,6 +235,13 @@
                         <ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
                             <!--begin::Nav item-->
                             <li class="nav-item mt-2">
+                                <a class="nav-link text-active-primary ms-0 me-10 py-5" data-bs-toggle="tab" href="#kt_tab_pane_producto_coberturas">
+                                    Coberturas del producto
+                                </a>
+                            </li>
+                            <!--end::Nav item-->
+                            <!--begin::Nav item-->
+                            <li class="nav-item mt-2">
                                 <a class="nav-link text-active-primary ms-0 me-10 py-5 active" data-bs-toggle="tab" href="#kt_tab_pane_cotizacion_titular">
                                     Títular
                                 </a>
@@ -264,6 +271,176 @@
                         <!--end::Messenger-->
                         <!--begin::tabs-->
                         <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show" id="kt_tab_pane_producto_coberturas" role="tabpanel">
+                            <div class="my-5">
+                            <div class="mb-15">
+                                <!--begin::List-->
+                                <div class="mh-375px scroll-y me-n7 pe-7">
+                                    <!--begin::User-->
+                                    <div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Details-->
+                                            <div>
+                                                <!--begin::Name-->
+                                                <a href="#" class="d-flex align-items-center fs-5 fw-bold text-gray-900 text-hover-primary">Gastos Médicos por emergencia Medica
+                                                    <span class="badge badge-light fs-8 fw-semibold ms-2"></span>
+                                                </a>
+                                                <!--end::Name-->
+                                                <!--begin::Email-->
+                                                <div class="fw-semibold text-muted">
+                                                    Deducible: No Aplica
+                                                </div>
+                                                <!--end::Email-->
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Stats-->
+                                        <div class="d-flex">
+                                            <!--begin::Sales-->
+                                            <div class="text-end">
+                                                <div class="fs-5 fw-bold text-gray-900">$1,000,000.00</div>
+                                                <div class="fs-7 text-muted">USD</div>
+                                            </div>
+                                            <!--end::Sales-->
+                                        </div>
+                                        <!--end::Stats-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Details-->
+                                            <div>
+                                                <!--begin::Name-->
+                                                <a href="#" class="d-flex align-items-center fs-5 fw-bold text-gray-900 text-hover-primary">Gastos Médicos por emergencia médica para padecimientos o enfermedades preexistentes
+                                                    <span class="badge badge-light fs-8 fw-semibold ms-2"></span>
+                                                </a>
+                                                <!--end::Name-->
+                                                <!--begin::Email-->
+                                                <div class="fw-semibold text-muted">
+                                                    Deducible: No Aplica
+                                                </div>
+                                                <!--end::Email-->
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Stats-->
+                                        <div class="d-flex">
+                                            <!--begin::Sales-->
+                                            <div class="text-end">
+                                                <div class="fs-5 fw-bold text-gray-900">$1.00</div>
+                                                <div class="fs-7 text-muted">USD</div>
+                                            </div>
+                                            <!--end::Sales-->
+                                        </div>
+                                        <!--end::Stats-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Details-->
+                                            <div>
+                                                <!--begin::Name-->
+                                                <a href="#" class="d-flex align-items-center fs-5 fw-bold text-gray-900 text-hover-primary">Emergencia Dental
+                                                    <span class="badge badge-light fs-8 fw-semibold ms-2"></span>
+                                                </a>
+                                                <!--end::Name-->
+                                                <!--begin::Email-->
+                                                <div class="fw-semibold text-muted">
+                                                    Deducible: No Aplica
+                                                </div>
+                                                <!--end::Email-->
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Stats-->
+                                        <div class="d-flex">
+                                            <!--begin::Sales-->
+                                            <div class="text-end">
+                                                <div class="fs-5 fw-bold text-gray-900">$2.00</div>
+                                                <div class="fs-7 text-muted">USD</div>
+                                            </div>
+                                            <!--end::Sales-->
+                                        </div>
+                                        <!--end::Stats-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Details-->
+                                            <div>
+                                                <!--begin::Name-->
+                                                <a href="#" class="d-flex align-items-center fs-5 fw-bold text-gray-900 text-hover-primary">Reembolso por Medicamentos 
+                                                    <span class="badge badge-light fs-8 fw-semibold ms-2"></span>
+                                                </a>
+                                                <!--end::Name-->
+                                                <!--begin::Email-->
+                                                <div class="fw-semibold text-muted">
+                                                    Deducible: No Aplica
+                                                </div>
+                                                <!--end::Email-->
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Stats-->
+                                        <div class="d-flex">
+                                            <!--begin::Sales-->
+                                            <div class="text-end">
+                                                <div class="fs-5 fw-bold text-gray-900">$200.00</div>
+                                                <div class="fs-7 text-muted">USD</div>
+                                            </div>
+                                            <!--end::Sales-->
+                                        </div>
+                                        <!--end::Stats-->
+                                    </div>
+                                    <!--end::User-->
+                                    <!--begin::User-->
+                                    <div class="d-flex flex-stack py-5 border-bottom border-gray-300 border-bottom-dashed">
+                                        <!--begin::Details-->
+                                        <div class="d-flex align-items-center">
+                                            <!--begin::Details-->
+                                            <div>
+                                                <!--begin::Name-->
+                                                <a href="#" class="d-flex align-items-center fs-5 fw-bold text-gray-900 text-hover-primary">Responsabilidad Civil en el Extranjero
+                                                    <span class="badge badge-light fs-8 fw-semibold ms-2"></span>
+                                                </a>
+                                                <!--end::Name-->
+                                                <!--begin::Email-->
+                                                <div class="fw-semibold text-muted">
+                                                    Deducible: No Aplica
+                                                </div>
+                                                <!--end::Email-->
+                                            </div>
+                                            <!--end::Details-->
+                                        </div>
+                                        <!--end::Details-->
+                                        <!--begin::Stats-->
+                                        <div class="d-flex">
+                                            <!--begin::Sales-->
+                                            <div class="text-end">
+                                                <div class="fs-5 fw-bold text-gray-900">$1,000,000.00</div>
+                                                <div class="fs-7 text-muted">USD</div>
+                                            </div>
+                                            <!--end::Sales-->
+                                        </div>
+                                        <!--end::Stats-->
+                                    </div>
+                                    <!--end::User-->
+                                </div>
+                                <!--end::List-->
+                            </div>
+                        </div>
+                            </div>
                             <div class="tab-pane fade show active" id="kt_tab_pane_cotizacion_titular" role="tabpanel">
                                 <div class="my-5">
                                     <div class="mb-15">
