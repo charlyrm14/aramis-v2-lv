@@ -55,4 +55,9 @@ class Producto extends Model
             ->orderBy('a.id','desc')
             ->first();
     }
+
+    public static function obtieneProductosComercializables()
+    {
+        return static::where('fc_comercializable', 'SI')->get();
+    }
 }

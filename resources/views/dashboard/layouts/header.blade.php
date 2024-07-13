@@ -186,6 +186,25 @@
                 <!--begin::Chat-->
                 <div class="d-flex align-items-center ms-1 ms-lg-3">
                     <!--begin::Menu wrapper-->
+                    <a  href="{{ route('productos.index') }}"
+                        class="btn btn-icon btn-active-light-primary position-relative btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px">
+                        <i class="ki-duotone ki-lots-shopping fs-1">
+                            <span class="path1"></span>
+                            <span class="path2"></span>
+                            <span class="path3"></span>
+                            <span class="path4"></span>
+                            <span class="path5"></span>
+                            <span class="path6"></span>
+                            <span class="path7"></span>
+                            <span class="path8"></span>
+                        </i>
+                    </a>
+                    <!--end::Menu wrapper-->
+                </div>
+                <!--end::Chat-->
+                <!--begin::Chat-->
+                <div class="d-flex align-items-center ms-1 ms-lg-3">
+                    <!--begin::Menu wrapper-->
                     <div class="btn btn-icon btn-active-light-primary position-relative btn btn-icon btn-active-light-primary w-30px h-30px w-md-40px h-md-40px" id="kt_drawer_chat_toggle">
                         <i class="ki-duotone ki-finance-calculator fs-1">
                             <span class="path1"></span>

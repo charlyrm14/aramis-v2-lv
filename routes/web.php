@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AseguradoController;
 use App\Http\Controllers\UsuarioController;
 use App\Http\Controllers\ReporteController;
+use App\Http\Controllers\ProductController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -39,4 +40,8 @@ Route::prefix('usuarios/')->controller(UsuarioController::class)->group(function
 
 Route::prefix('reportes/')->controller(ReporteController::class)->group(function() {
     Route::get('', 'index')->name('reportes.index');
+});
+
+Route::prefix('productos/')->controller(ProductController::class)->group(function() {
+    Route::get('', 'index')->name('productos.index');
 });
